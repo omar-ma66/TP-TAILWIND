@@ -79,5 +79,8 @@ background-color: hsl(5, 85%, 63%)
 .bg-dark-blue{
    background-color:hsl(240, 100%, 5%) ;
 }
-
-
+.line{
+    width: 80%;
+    border: 1px solid gray;
+margin: 0 auto;
+}
