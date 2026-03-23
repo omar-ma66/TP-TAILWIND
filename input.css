@@ -79,8 +79,22 @@ background-color: hsl(5, 85%, 63%)
 .bg-dark-blue{
    background-color:hsl(240, 100%, 5%) ;
 }
+
+
 .line{
     width: 80%;
     border: 1px solid gray;
-margin: 0 auto;
+    margin: 0 auto;
+}
+
+a:hover{
+color: hsl(5, 85%, 63%); 
+}
+
+h2:hover{
+    color:hsl(5, 85%, 63%) ;
+}
+
+button:hover{
+  background-color:hsl(240, 100%, 5%) ;
 }
