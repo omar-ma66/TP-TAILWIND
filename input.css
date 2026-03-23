@@ -1,1 +1,83 @@
+
 @import "tailwindcss";
+/**
+Chargement des polices 'FONTs"
+*/
+
+
+@font-face {
+    font-family:"font-inter-bold" ;
+    src: url("assets/fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family:"font-inter-extra-bold" ;
+    src: url("assets/fonts/static/Inter-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family:"font-inter-regular" ;
+    src: url("assets/fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family:"font-inter-variable" ;
+    src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+
+.font-inter-extra-bold{
+    font-family: "font-inter-extra-bold";
+}
+
+.font-inter-bold{
+    font-family: "font-inter-bold";
+}
+
+
+.font-inter-regular{
+    font-family: "font-inter-regular";
+}
+
+.font-inter-variable{
+    font-family: "font-inter-variable";
+}
+
+
+
+/**
+    Definition des couleurs pour les textes
+*/
+
+.text-soft-orange{
+    color: hsl(35, 77%, 62%)
+}
+
+.text-soft-red{
+color: hsl(5, 85%, 63%)
+}
+.text-soft-white{
+    color:hsl(36, 100%, 99%) ;
+}
+.text-gray-blue{
+  color: hsl(233, 8%, 79%);  
+}
+.text-dark-gray{
+    color:hsl(236, 13%, 42%);
+}
+.text-dark-blue{
+    color: hsl(240, 100%, 5%) ;;
+}
+
+/**
+définition des couleurs de fond  
+*/
+
+.bg-soft-red{
+background-color: hsl(5, 85%, 63%)
+
+}
+.bg-dark-blue{
+   background-color:hsl(240, 100%, 5%) ;
+}
+
+
